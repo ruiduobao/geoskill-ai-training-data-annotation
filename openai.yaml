@@ -1,0 +1,14 @@
+name: geoskill-ai-training-data-annotation
+display_name: AI训练数据标注
+description: |
+  小型 U-Net 二值语义分割 (torch+CUDA) 预标注 + 主动学习不确定性选样，输出 COCO/GeoJSON 标注与不确定性栅格
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-ai-training-data-annotation.py
+runtime: python>=3.9
+tags:
+  - ai
+  - gis
+  - raster
+  - remote-sensing
+  - vector
